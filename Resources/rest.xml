@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <plists>
+        <plist>rest.plist</plist>
+    </plists>
+    <animations>
+        <animation>
+            <name>up_z_rest</name>
+            <delay>0.1</delay>
+            <flipX>false</flipX>
+            <flipY>false</flipY>
+            <spriteFrame>ZS1_01.png</spriteFrame>
+            <spriteFrame>ZS1_02.png</spriteFrame>
+            <spriteFrame>ZS1_03.png</spriteFrame>
+            <spriteFrame>ZS1_04.png</spriteFrame>
+            <spriteFrame>ZS1_05.png</spriteFrame>
+        </animation>
+        <animation>
+            <name>up_y_rest</name>
+            <delay>0.1</delay>
+            <flipX>true</flipX>
+            <flipY>false</flipY>
+            <spriteFrame>ZS1_01.png</spriteFrame>
+            <spriteFrame>ZS1_02.png</spriteFrame>
+            <spriteFrame>ZS1_03.png</spriteFrame>
+            <spriteFrame>ZS1_04.png</spriteFrame>
+            <spriteFrame>ZS1_05.png</spriteFrame>
+        </animation>
+    </animations>
+</root>

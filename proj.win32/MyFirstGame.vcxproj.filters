@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="仙侠">
+      <UniqueIdentifier>{de99942c-3981-4a28-9981-cb8bfdf64334}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="仙侠\场景">
+      <UniqueIdentifier>{cfc69d9b-a0d2-44f9-a115-6d6f6431b7f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="仙侠\工具">
+      <UniqueIdentifier>{9e5c0aad-addb-412a-953d-ad8c6bc81dc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="仙侠\工具\动画工具">
+      <UniqueIdentifier>{c71a12c8-ede3-4c31-aa18-2472333d553c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="仙侠\资源">
+      <UniqueIdentifier>{fd398720-9ff0-40af-ab89-7845cd8c8816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="仙侠\资源\资源宏定义">
+      <UniqueIdentifier>{81642406-fba8-4eba-bfb7-11902197d54c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="仙侠\场景\加载层">
+      <UniqueIdentifier>{459afc4a-637e-43a3-bb62-2d19664ea423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="仙侠\通信模块">
+      <UniqueIdentifier>{c2089861-4906-4b7d-a5e4-ef12b416cf46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="仙侠\通信模块\Socket">
+      <UniqueIdentifier>{8c618134-f333-4849-afc6-eaca8ba3c3a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="仙侠\通信模块\通信数据">
+      <UniqueIdentifier>{6ae84e08-053e-4e5e-9a93-06915b1aebf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="仙侠\通信模块\消息队列">
+      <UniqueIdentifier>{bd1b07ac-5afa-4820-8231-54fe44e89987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="仙侠\场景\登录场景">
+      <UniqueIdentifier>{9791121e-70dd-40a1-9650-4b400300cfe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="仙侠\场景\注册场景">
+      <UniqueIdentifier>{f367dae9-75da-4158-af5d-8a8b23df7e20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="仙侠\对话框">
+      <UniqueIdentifier>{6df20f84-8316-43af-b555-d8a8a9580064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="仙侠\对话框\消息对话框">
+      <UniqueIdentifier>{197a4cf9-f251-45aa-8692-42e3cf9b9521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="仙侠\视图">
+      <UniqueIdentifier>{2f69f299-cde3-47b0-aff8-06472d7e4c67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="仙侠\视图\主视图">
+      <UniqueIdentifier>{707a1a3e-8e6d-4807-b0fe-105bc2b85cc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="仙侠\工具\字符转化">
+      <UniqueIdentifier>{c094e0d8-6714-4451-93e2-26a200a7ee22}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LoginScene.cpp">
+      <Filter>仙侠\场景\登录场景</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AnimationUtil.cpp">
+      <Filter>仙侠\工具\动画工具</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LoadingLayer.cpp">
+      <Filter>仙侠\场景\加载层</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SocketClient.cpp">
+      <Filter>仙侠\通信模块\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ByteBuffer.cpp">
+      <Filter>仙侠\通信模块\通信数据</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RegisterScene.cpp">
+      <Filter>仙侠\场景\注册场景</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CocoMessageBox.cpp">
+      <Filter>仙侠\对话框\消息对话框</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainView.cpp">
+      <Filter>仙侠\视图\主视图</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UTF-8Trans.cpp">
+      <Filter>仙侠\工具\字符转化</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LoginScene.h">
+      <Filter>仙侠\场景\登录场景</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AnimationUtil.h">
+      <Filter>仙侠\工具\动画工具</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ResourceName.h">
+      <Filter>仙侠\资源\资源宏定义</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LoadingLayer.h">
+      <Filter>仙侠\场景\加载层</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SocketClient.h">
+      <Filter>仙侠\通信模块\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ByteBuffer.h">
+      <Filter>仙侠\通信模块\通信数据</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RegisterScene.h">
+      <Filter>仙侠\场景\注册场景</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CocoMessageBox.h">
+      <Filter>仙侠\对话框\消息对话框</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainView.h">
+      <Filter>仙侠\视图\主视图</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UTF_8Trans.h">
+      <Filter>仙侠\工具\字符转化</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
